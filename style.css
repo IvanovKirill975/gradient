@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.gredient__img{
+    height: 300px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.title{
+   margin-left: 30px;
+   font-weight: 900;
+   /* font-size: 72px; */
+   background: -webkit-linear-gradient(#eee, #333);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.info__content{
+    padding: 0 10px 0 10px;
+}
+
+/* Card BAY !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+.card__buy{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    flex-direction: column;
+    transition: 1s;
+}
+.card:hover{
+    -webkit-box-shadow: 11px 10px 29px -4px rgba(0,0,0,0.8);
+    -moz-box-shadow: 11px 10px 29px -4px rgba(0,0,0,0.8);
+    box-shadow: 11px 10px 29px -4px rgba(0,0,0,0.8);
+
+}
+.title, span {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.gredient__img__buy{
+     width: 300px;
+     height: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    transition: 1s;
+    border: 1px solid rgb(197, 197, 197);
+    background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+}
+.btn:hover{
+  color: white;
+}
+
+/* Table Sctyle CSS!!!!!!!!!!!!!!!!!!! */
+
+
+/* table {
+    margin-top: 100px;
+}
+table, th , td {
+    border: 1px solid rgb(150, 150, 150);
+    border-collapse: collapse;
+}
+th , td {
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+} */
